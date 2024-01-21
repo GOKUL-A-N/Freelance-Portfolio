@@ -9,7 +9,7 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className='flex mt-20 mb-10 flex-col items-center justify-center sm:items-start h-screen sm:h-auto w-full md:flex-row'>
+    <div className='flex mt-20 mb-10 flex-col  items-center justify-center sm:items-start h-screen sm:h-auto w-full md:flex-row'>
         <div className="w-full md:w-[50%] p-10 md:p-20 ">
         <h1 className='text-[30px]  md:text-[40px] text-white  text-start font-bold z-10'>Works</h1>
         <p className='text-[20px] flex sm:w-2/4 md:text-[25px] font-normal text-tertiary z-10'> 

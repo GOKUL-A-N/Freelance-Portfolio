@@ -7,11 +7,11 @@ import { Bounce } from "react-awesome-reveal";
 
 const Services = () => {
   return (
-    <div className='text-white'>
-      <h2 className='pl-10 pt-3 text-center font-semibold tracking-wider text-[28px]'> Services</h2>
-      <div className='md:h-screen w-full flex flex-col md:flex-row items-center justify-center p-5 gap-10'>
+    <div className='text-white mt-20'>
+      <h2 className='pl-10 pt-0 text-center font-semibold tracking-wider text-[28px]'> Services</h2>
+      <div className=' w-full flex flex-col md:flex-row items-center justify-center pt-4 gap-10'>
       
-      <div className='relative flex w-[280px] h-[500px] transition duration-150 ease-in-out hover:scale-110'>
+      <div className='relative flex w-[280px] transition duration-150 ease-in-out hover:scale-110'>
       <Bounce className='z-10'>
         <div className='w-full z-10 relative h-full bg-[#222] p-5'>
             <h3 className='text-[23px] font-semibold '>Pro</h3><br />
@@ -33,7 +33,7 @@ const Services = () => {
       </div>
 
 
-      <div className='relative flex w-[280px] h-[480px] transition duration-150 ease-in-out hover:scale-110'>
+      <div className='relative flex w-[280px]  transition duration-150 ease-in-out hover:scale-110'>
         <Bounce className='z-10'>
         <div className='w-full z-10 relative h-full bg-[#222] p-5'>
             <h3 className='text-[23px] font-semibold '>Standard</h3><br />
@@ -52,7 +52,7 @@ const Services = () => {
         <div className='absolute w-full rotate-2 h-full bg-secondary'></div>
       </div>
 
-      <div className='relative flex w-[280px] h-[480px] transition duration-150 ease-in-out hover:scale-110'>
+      <div className='relative flex w-[280px]  transition duration-150 ease-in-out hover:scale-110'>
       <Bounce className='z-10'>
         <div className='w-full z-10 relative h-full bg-[#222] p-5'>
             <h3 className='text-[23px] font-semibold '>Basic</h3><br />

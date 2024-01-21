@@ -43,7 +43,7 @@ export default function NavBar() {
               }`}
               href={item.path}
             >
-              <span>{item.name}</span>
+              <span className="text-[10px] sm:text-[20px] md:[28px]">{item.name}</span>
             </Link>
           );
         })}
