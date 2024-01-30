@@ -9,8 +9,8 @@ import Image from 'next/image'
 
 const Projects = () => {
   return (
-    <div className='flex mt-20 mb-10 flex-col  items-center justify-center sm:items-start h-screen sm:h-auto w-full md:flex-row'>
-        <div className="w-full md:w-[50%] p-10 md:p-20 ">
+    <div className='flex mt-20 mb-10 flex-col  md:items-right md:justify-end sm:items-start h-screen sm:h-auto w-full md:flex-row'>
+        <div className="w-full md:w-[50%] p-10 md:p-20 md:fixed md:left-0">
         <h1 className='text-[30px]  md:text-[40px] text-white  text-start font-bold z-10'>Works</h1>
         <p className='text-[20px] flex sm:w-2/4 md:text-[25px] font-normal text-tertiary z-10'> 
           <span className='font-bold mt-1 text-white '><MdOutlineHorizontalRule size={40} /></span>
@@ -18,7 +18,7 @@ const Projects = () => {
         </p>
           
         </div>
-        <div className="w-full md:w-[50%] p-2 mt-10 mb-20">
+        <div className="w-full md:w-[50%] p-2 mt-10 mb-20 ">
             <table className='border-2 w-full border-tertiary  overflow-y-scroll'>
                 <tr className='w-full'>
                   <a href="https://educateu-mt3gf8d9u-gokul-a-n.vercel.app/"><td className='w-1/2'><Image src={EducateUImg} alt="" /></td></a>
