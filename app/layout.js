@@ -5,6 +5,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
 import Link from "next/link"
 import Navbar from './{utils}/Navbar';
+import logo from '../public/images/logo.png';
 
 const roboto = Roboto({ 
   weight: '400',subsets: ['latin'] })
