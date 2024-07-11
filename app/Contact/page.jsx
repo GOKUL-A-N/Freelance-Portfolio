@@ -67,7 +67,7 @@ const Contact = () => {
           </span>
         </label> */}
       </div>
-      <button className="border-2 border-secondary p-3 hover:bg-secondary hover:text-[#111] text-white" type="submit">
+      <button className="border-2 border-[#ff512e] p-3 hover:bg-[#ff512e] hover:text-[#111] text-white" type="submit">
         Send Message
       </button>
     </div>

@@ -5,6 +5,7 @@ import project2Img from "../../public/images/project2Img.png";
 import project3Img from "../../public/images/project3Img.png";
 import project5Img from "../../public/images/project5Img.png";
 import EducateUImg from "../../public/images/EducateUImg.png";
+import bikeServiceImg from "../../public/images/bikeServiceImg.png"
 import Image from 'next/image'
 
 const Projects = () => {
@@ -59,6 +60,14 @@ const Projects = () => {
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>HooBank</h6>
                     <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>05</h2>
                   </td>
+                </tr>
+
+                <tr className='w-full'>
+                  <td className='relative h-full w-1/2'>
+                    <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>Bike Service Application</h6>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>06</h2>
+                  </td>
+                  <a href="https://github.com/GOKUL-A-N/Bike-Service-Application"><td className='w-1/2'><Image src={bikeServiceImg} alt="" /></td></a>
                 </tr>
             </table>
         </div>

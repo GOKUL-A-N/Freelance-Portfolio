@@ -30,7 +30,7 @@ export default function Home() {
       <div className={styles.body}>
         <div className='w-full h-full flex flex-col items-center justify-center '>
         <h6 className='text-[10px] sm:text-[15px] font-semibold text-center tracking-widest uppercase'>Gokul NatarajMoorthy</h6> 
-        <h1 className='text-center text-[35px] sm:text-[35px] leading-tight md:text-[55px] xl:text-[65px]  md:tracking-wide  uppercase font-black'><span>Crafting</span>  <br /> <span className='text-[#0de1d4]'>digital</span> <br /> <span className='text-[#0de1d4]'>experience</span> <br /> that <br /> ignite <br /> your <br /> business </h1>
+        <h1 className='text-center text-[35px] sm:text-[35px] leading-tight md:text-[55px] xl:text-[65px]  md:tracking-wide  uppercase font-black'><span>Crafting</span>  <br /> <span className='text-[#ff512e]'>digital</span> <br /> <span className='text-[#ff512e]'>experience</span> <br /> that <br /> ignite <br /> your <br /> business </h1>
         </div> 
       </div>
 

@@ -17,10 +17,6 @@ const navItems = [
     name: "Projects",
   },
   {
-    path: "/Services",
-    name: "Services",
-  },
-  {
     path: "/Contact",
     name: "Contact",
   },
