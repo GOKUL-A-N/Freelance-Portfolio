@@ -15,7 +15,7 @@ const Projects = () => {
         <h1 className='text-[30px]  md:text-[40px] text-white  text-start font-bold z-10'>Works</h1>
         <p className='text-[20px] flex sm:w-2/4 md:text-[25px] font-normal text-tertiary z-10'> 
           <span className='font-bold mt-1 text-white '><MdOutlineHorizontalRule size={40} /></span>
-          <span>All honest designs are good but not all good designs are good</span>
+          <span>All honest designs are good but not all good designs are honest</span>
         </p>
           
         </div>
