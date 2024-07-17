@@ -6,6 +6,7 @@ import { FaInstagramSquare } from "react-icons/fa";
 import Link from "next/link"
 import Navbar from './{utils}/Navbar';
 import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 // import logo from '../public/images/logo.png';
 
 const roboto = Roboto({ 
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
           <Navbar />
         </div>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
