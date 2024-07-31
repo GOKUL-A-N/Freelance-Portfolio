@@ -6,6 +6,7 @@ import project3Img from "../../public/images/project3Img.png";
 import project5Img from "../../public/images/project5Img.png";
 import EducateUImg from "../../public/images/EducateUImg.png";
 import bikeServiceImg from "../../public/images/bikeServiceImg.png"
+import chatBotImg from "../../public/images/chatBotImg.png"
 import Image from 'next/image'
 
 const Projects = () => {
@@ -21,11 +22,19 @@ const Projects = () => {
         </div>
         <div className="w-full md:w-[50%] p-2 mt-10 mb-20 ">
             <table className='border-2 w-full border-tertiary  overflow-y-scroll'>
+                <tr className='w-full'> 
+                  <td className='relative h-full w-1/2'>
+                    <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>ChatBot</h6>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>01</h2>
+                  </td>
+                  <a href="https://github.com/GOKUL-A-N/ChatBot"><td className='w-1/2'><Image src={chatBotImg} alt="" /></td></a>
+                </tr>
+
                 <tr className='w-full'>
                   <a href="https://educateu-mt3gf8d9u-gokul-a-n.vercel.app/"><td className='w-1/2'><Image src={EducateUImg} alt="" /></td></a>
                   <td className='relative h-full w-full'>
                     <h6 className='absolute bottom-3 xs:font-semibold tracking-wider text-[#ddd] pl-3'>EducateU</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>01</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>02</h2>
                   </td>
                 </tr>
 
@@ -33,7 +42,7 @@ const Projects = () => {
                   
                   <td className='relative h-full w-1/2'>
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>CodePrep</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>02</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>03</h2>
                   </td>
                   <a href="https://github.com/GOKUL-A-N/codeprep"><td className='w-1/2'><Image src={project2Img} alt="" /></td></a>
                 </tr>
@@ -42,14 +51,14 @@ const Projects = () => {
                   <a href="https://github.com/GOKUL-A-N/Devconvo"><td className='w-1/2'><Image src={project3Img} alt="" /></td></a>
                   <td className='relative h-full w-full'>
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>Devconvo</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>03</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>04</h2>
                   </td>
                 </tr>
                 
                 <tr className='w-full'>
                   <td className='relative h-full w-1/2'>
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>FitGuild</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>04</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>05</h2>
                   </td>
                   <a href="https://fit-guild-01-gokul-a-n.vercel.app/"><td className='w-1/2'><Image src={project1Img} alt="" /></td></a>
                 </tr>
@@ -58,14 +67,14 @@ const Projects = () => {
                   <a href="https://hoo-bank-gokul-a-n.vercel.app/"><td className='w-1/2'><Image src={project5Img} alt="" /></td></a>
                   <td className='relative h-full w-full'>
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>HooBank</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>05</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>06</h2>
                   </td>
                 </tr>
 
                 <tr className='w-full'>
                   <td className='relative h-full w-1/2'>
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>Bike Service Application</h6>
-                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>06</h2>
+                    <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>07</h2>
                   </td>
                   <a href="https://github.com/GOKUL-A-N/Bike-Service-Application"><td className='w-1/2'><Image src={bikeServiceImg} alt="" /></td></a>
                 </tr>
