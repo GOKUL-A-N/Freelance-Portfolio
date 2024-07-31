@@ -6,7 +6,7 @@ import project3Img from "../../public/images/project3Img.png";
 import project5Img from "../../public/images/project5Img.png";
 import EducateUImg from "../../public/images/EducateUImg.png";
 import bikeServiceImg from "../../public/images/bikeServiceImg.png"
-import chatBotImg from "../../public/images/chatBotImg.png"
+import chatBot from "../../public/images/chatBot.png"
 import Image from 'next/image'
 
 const Projects = () => {
@@ -27,7 +27,7 @@ const Projects = () => {
                     <h6 className='absolute bottom-3 font-semibold tracking-wider text-[#ddd] pl-3'>ChatBot</h6>
                     <h2 className='absolute right-1 bottom-3 pr-4 text-tertiary xs:text-[30px] font-bold'>01</h2>
                   </td>
-                  <a href="https://github.com/GOKUL-A-N/ChatBot"><td className='w-1/2'><Image src={chatBotImg} alt="" /></td></a>
+                  <a href="https://github.com/GOKUL-A-N/ChatBot"><td className='w-1/2'><Image src={chatBot} alt="" /></td></a>
                 </tr>
 
                 <tr className='w-full'>
